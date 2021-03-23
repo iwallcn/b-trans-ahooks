@@ -1,0 +1,17 @@
+.logo{
+  display: flex;
+  align-items: center;
+  img{
+    height: 22px;
+  }
+  h6{
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+  }
+  :global{
+    .next-divider-ver{
+      top: 0;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.title{
+  font-size: 20px;
+  font-weight: bold;
+  color: #262E42;
+  margin: 20px 0;
+}
+:global{
+  .next-tabs.next-medium .next-tabs-tab-inner{
+    .next-icon .next-icon-remote{
+      width: 20px;
+      font-size: 20px;
+    }
+    span{
+      font-size: 15px;
+    }
+  }
+}
+.panel{
+  background-color: #fff;
+  padding: 20px;
+}
+.tips{
+  margin: 20px 0;
+  font-size: 14px;
+  color: #545D75;
+  line-height: 24px;
+  dd{
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,17 @@
+.content{
+  min-height: calc(100VH - 180px);
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 24px;
+  :global{
+    .next-pagination{
+      text-align: center;
+      margin-top: 30px;
+    }
+    .next-badge .next-badge-custom{
+      background-color: #eef1f6;
+      color: #272e42;
+      line-height: 1.6;
+    }
+  }
+}

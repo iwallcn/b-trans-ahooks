@@ -1,0 +1,15 @@
+.itemTitle{
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 8px 0;
+  :global{
+    .title{
+      font-size: 18px;
+    }
+    .iconfont{
+      font-size: 24px;
+      line-height: 100%;
+      color: #005ADC;
+    }
+  }
+}

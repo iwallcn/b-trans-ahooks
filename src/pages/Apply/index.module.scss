@@ -1,0 +1,84 @@
+.content{
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 24px;
+}
+.warehouse{
+  margin: 20px 0;
+}
+.service{
+  margin: 20px 0;
+  :global{
+    .next-box{
+      font-size: 14px;
+      padding: 16px;
+      &.title{
+        background-color: #EEF1F6;
+        & > span:first-child{
+          width: 200px;
+        }
+      }
+      &.desc{
+        background-color: #F8FAFC;
+        border-bottom: 1px solid #E7E8EB;
+        & > span:first-child{
+          white-space: nowrap;
+          margin-right: 20px;
+        }
+      }
+      &.item{
+        border-bottom: 1px solid #E7E8EB;
+        & > span:first-child{
+          width: 200px;
+        }
+      }
+    }
+  }
+}
+.addService{
+  margin: 20px 0;
+  :global{
+    .item{
+      cursor: default;
+      position: relative;
+      padding: 15px 30px;
+      border: 1px solid #B6BDC5;
+      border-radius: 4px;
+      font-size: 14px;
+      &.active{
+        border-color: #005ADC;
+      }
+      span{
+        margin-right: 5px;
+      }
+      .next-icon{
+        &:before{
+          vertical-align: inherit;
+        }
+        &:first-child{
+          position: absolute;
+          right: 3px;
+          bottom: 1px;
+          color: #005ADC;
+        }
+      }
+    }
+  }
+}
+.taxModel{
+  margin: 20px 0;
+}
+.footer{
+  border-top: 1px solid #E7E8EB;
+  margin: 0 -24px;
+  padding: 24px 24px 0;
+}
+.applyDialog{
+  :global{
+    .next-dialog-body{
+      & > div{
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

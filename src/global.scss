@@ -1,0 +1,37 @@
+@import "@alifd/next/reset.scss";
+/*@import "~@alifd/next/lib/core/index.scss";*/
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+.next-shell-brand .next-shell-main {
+  background: #f2f4f8 !important;
+}
+.next-aside-navigation{
+  .next-menu-item-text .iconfont{
+    margin-right: 4px;
+  }
+}
+.next-nav.next-ver.next-right .next-nav-item:before {
+  right: 0 !important;
+}
+.next-dialog-header{
+  font-weight: bold;
+}
+.next-radio-wrapper .next-radio-label,
+.next-checkbox-wrapper .next-checkbox-label {
+  display: inline-block;
+  margin-top: 2px;
+}
+.next-btn-text.next-medium{
+  font-size: 14px !important;
+}
+.next-input.next-input-textarea textarea{
+  padding: 11px !important;
+}
+.next-table-expanded-ctrl .next-table-expand-fold::before {
+  content: "\E63D" !important;
+}
+.next-table-expanded-ctrl .next-table-expand-unfold::before {
+  content: "\E625" !important;
+}

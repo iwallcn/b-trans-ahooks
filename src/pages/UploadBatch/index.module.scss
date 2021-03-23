@@ -1,0 +1,24 @@
+.title{
+  font-size: 20px;
+  font-weight: bold;
+  color: #262E42;
+  margin: 20px 0;
+}
+:global{
+  .next-tabs.next-medium .next-tabs-tab-inner{
+    .next-icon .next-icon-remote{
+      width: 20px;
+      font-size: 20px;
+    }
+    span{
+      font-size: 15px;
+    }
+  }
+}
+.panel{
+  background-color: #fff;
+  padding: 20px;
+}
+.footer{
+  padding: 30px 0 10px;
+}

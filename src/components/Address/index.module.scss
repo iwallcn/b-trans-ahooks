@@ -1,0 +1,89 @@
+.address{
+
+}
+.addressDialog{
+  :global{
+    .next-form-item{
+      margin-bottom: 5px;
+    }
+  }
+}
+.selectFromAddress{
+  border: 1px solid #EAEAEA;
+  border-radius: 4px;
+  margin-top: 20px;
+  :global{
+    .items.hide{
+      display: none;
+    }
+    .item{
+      cursor: default;
+      padding: 12px;
+      border-radius: 4px;
+      margin: 6px;
+      &:hover {
+        background-color: #F0F5FC;
+        color: #005ADC;
+      }
+      .next-box{
+        span:nth-child(1){
+          font-size: 18px;
+          font-weight: bold;
+        }
+        span:nth-child(2){
+          font-size: 18px;
+        }
+        span:nth-child(3){
+          display: inline-block;
+          background-color: #EBEDF0;
+          padding: 4px 7px;
+          border-radius: 4px;
+        }
+        i{
+          color: #005ADC;
+        }
+      }
+      p{
+        margin: 5px 0 0;
+      }
+    }
+    .items ~ p{
+      margin: 6px;
+      padding: 12px;
+    }
+  }
+}
+.auth{
+  :global{
+    .next-upload-inner{
+      display: block;
+    }
+    .upload{
+      position: relative;
+      text-align: center;
+      & > img{
+        display: block;
+        width: 100%;
+        height: 162px;
+      }
+      & > div{
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        p{
+          margin-top: 5px;
+        }
+        .next-btn{
+          color: #005adc;
+        }
+      }
+    }
+  }
+}
+:global{
+  .next-cascader-menu-wrapper{
+    width: 132.5px !important;
+  }
+}

@@ -1,0 +1,80 @@
+.content{
+  min-height: calc(100VH - 180px);
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 72px 24px 24px;
+}
+.card{
+  background-color: #f6f8ff;
+  border-radius: 18px;
+  position: relative;
+  padding: 24px 36px;
+  & > i:first-child{
+    &:before{
+      font-size: 76px;
+      line-height: 80px;
+      position: absolute;
+      z-index: 1;
+      top: -40px;
+      left: 50%;
+      margin-left: -44px;
+    }
+    &:after{
+      content: "";
+      display: block;
+      width: 71px;
+      height: 71px;
+      background-color: #ffffff;
+      border-radius: 38px;
+      position: absolute;
+      z-index: 0;
+      top: -36px;
+      left: 50%;
+      margin-left: -39px;
+    }
+  }
+  h6{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1D2B36;
+    margin: 0;
+    padding-top: 42px;
+  }
+  p:nth-of-type(1){
+    font-size: 16px;
+    color: #383F53;
+    text-align: center;
+  }
+  p:nth-of-type(2){
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+}
+.shops{
+  h5{
+    font-size: 20px;
+    color: #363B58;
+    font-weight: bold;
+  }
+  :global{
+    .next-box{
+      margin-top: 30px;
+      & > div:first-child{
+        width: 120px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      & > div:last-child{
+        flex-grow: 1;
+      }
+    }
+    .next-col{
+      margin-bottom: 10px;
+      button{
+        margin-left: 15px;
+      }
+    }
+  }
+}

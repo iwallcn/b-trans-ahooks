@@ -1,0 +1,22 @@
+{
+  "plugins": [
+    ["build-plugin-fusion", {
+        "themePackage": "@alifd/theme-16425"
+      }
+    ],
+    ["build-plugin-moment-locales", {
+        "locales": [
+          "zh-cn"
+        ]
+      }
+    ]
+  ],
+  "hash": "contenthash",
+  "proxy": {
+    "/mainApi": {
+      "enable": true,
+      "target": "http://10.104.5.36:18006",
+      "pathRewrite": {"^/mainApi" : ""}
+    }
+  }
+}
